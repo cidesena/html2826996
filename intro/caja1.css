@@ -1,0 +1,15 @@
+h1{
+    color:green !important;
+}
+
+p{
+    background-color: aqua;
+}
+
+.extremo{
+    background-color: lightgreen;
+}
+
+#medio{
+    background-color: salmon;
+}
