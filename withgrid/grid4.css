@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: "header header"
+                         "menu main"
+                         "footer footer";
+  
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 200px 100px;
+  }
+  
+  .item-1 { grid-area: header; background: blue; }
+  .item-2 { grid-area: menu; background: red; }
+  .item-3 { grid-area: main; background: green; }
+  .item-4 { grid-area: footer; background: orange; }
+  

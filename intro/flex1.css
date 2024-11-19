@@ -1,0 +1,36 @@
+.contenedor{
+    width: 400px;
+    height: 400px;
+    border: 5px solid black;   
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor__caja{
+    width: 100px;
+    height: 100px;
+    border: 2px dotted darkblue;   
+    font-family: 'Times New Roman', Times, serif;
+    font-size:5em;
+    
+}
+
+.contenedor__caja1{
+    background-color: aqua;
+}
+
+.contenedor__caja2{
+    background-color: orange;
+}
+.contenedor__caja3{
+    background-color:red;
+}
+.contenedor__caja4{
+    background-color:green;
+}
+.contenedor__caja5{
+    background-color:yellow;
+}
