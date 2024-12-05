@@ -14,10 +14,10 @@ divs[4].style.background="salmon"
 var clases=document.getElementsByClassName("portfolio-item")
 console.log(`cantidad de etiquetas clase portfolio-item= ${clases.length}`)
 i=0
-for(i=0; i<clases.length ; i++){
-    clases[i].innerHTML=i*1000
-    console.log(clases[i].innerHTML)
-}
+// for(i=0; i<clases.length ; i++){
+//     clases[i].innerHTML=i*1000
+//     console.log(clases[i].innerHTML)
+// }
 
 //var parrafos=document.querySelectorAll("p")
 //var h3s=document.querySelector("h3")
@@ -37,3 +37,6 @@ const alinearTitulo=()=>{
         titulo.style.textAlign="center"
     else titulo.style.textAlign="left"
 }
+
+var unh3=document.getElementById("padreprueba").getElementById("prueba")
+unh3.style.background="red"
